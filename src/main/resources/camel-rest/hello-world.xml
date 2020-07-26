@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest path="/hello-world" xmlns="http://camel.apache.org/schema/spring">
+    <get>
+        <route>
+            <to uri="https://run.mocky.io/v3/bc6c24ff-d124-401f-bf84-31e0c6366af6?bridgeEndpoint=true" />
+        </route>
+    </get>
+</rest>
